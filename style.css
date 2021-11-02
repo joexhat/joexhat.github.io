@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#ffffff;
+}
+ul{
+    list-style: none;
+    padding: 15px;
+}
+header{
+    background-color: #1b1b1b;
+   
+}
+   
+.header1{
+    padding-left: 100px;
+    transition: .3s;
+    text-decoration: none;
+    color: #03989e;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.header1:hover{
+    transition: .3s;
+    color: #06ebf3;
+}
+.header2{
+    transition: .3s;
+    text-decoration: none;
+    color: #1b1b1b;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.header2:hover{
+    color: #06ebf3;
+}
+.header3{
+    transition: .3s;
+    text-decoration: none;
+    color: #1b1b1b;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.header3:hover{
+    color: #06ebf3;
+    
+}
+.headerdown{
+    width: 260px;
+    height: 40px;
+    background-color: #dc143c;
+    display: flex;
+    margin-left:auto;
+    margin-right: 50px;
+    border-radius: 0px 0px 50px 50px;
+}
+.headerdowntext{
+    transition: .3s;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 25px;
+    margin-top: 6px;
+    font-size: 19px;
+}
+.headerdowntext:hover{
+    transition: .3s;
+    color: #06ebf3;
+}
